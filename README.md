@@ -3,17 +3,27 @@
 
 ### Here's a little bit about who I am as a developer:
 ```javascript
-const aric = {
-  title: "Full Stack Software Engineer", 
-  askMeAbout: ["Web Dev", "Tech", "Mobile Dev", "Video Games"]
-  lang: [Javascript, HTML, CSS, Python, SQL, Dart],
-  others: [React, Redux, Node, Express, Firebase, Jest, Docker, Flutter],
-  architecture: ["Progressive web applications", "Single page applications",],
-  techCommunities: {
-                        member: "Indy Hacker"                        
-                      },
- currentlyLearning: "Flutter", "Mobile Development"
- availableForHire: true
+import Person from '/developers'
+import { Bio } from 'bio-basic'
+
+const Aric = () = {
+  const Info = {
+    title: "Full Stack Software Engineer", 
+    askMeAbout: ["Web Dev", "Tech", "Mobile Dev", "Video Games"],
+    lang: [Javascript, HTML, CSS, Python, SQL, Dart],
+    others: [React, Redux, Node, Express, Firebase, Jest, Docker, Flutter],
+    architecture: ["Progressive web applications", "Single page applications",],
+    techCommunities: {
+                          member: "Indy Hacker"                        
+                        },
+   currentlyLearning: "Flutter", "Mobile Development"
+   availableForHire: true
+  }
+  
+  return (
+  <Bio info={Info} />
 }
+
+export default Aric;
 ```
 
