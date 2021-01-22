@@ -21,7 +21,8 @@ const Aric = () = {
   }
   
   return (
-  <Bio info={Info} />
+    <Bio info={Info} />
+  )
 }
 
 export default Aric;
