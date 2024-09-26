@@ -8,15 +8,17 @@ import { Bio } from 'bio-basic'
 
 const Aric = () = {
   const Info = {
-    title: "Full Stack Software Engineer", 
-    askMeAbout: ["Web Dev", "Tech", "Mobile Dev", "Video Games"],
+    title: "Software Engineer", 
+    about: ["Web Dev", "Tech", "Mobile Dev", "Video Games"],
     lang: [Javascript, HTML, CSS, Python, SQL, Dart],
-    others: [React, Redux, Node, Express, Firebase, Jest, Docker, Flutter],
-    architecture: ["Progressive web applications", "Single page applications",],
-    techCommunities: {
-                          member: "Indy Hacker"                        
+    other: "AI Enthusiast and Developer",
+    libraries: [React, Redux, Node, Express, Firebase, Jest, Docker, Flutter],
+    architecture: ["Progressive web applications", "Single page applications"],
+    communities: {
+                          member: "Indy Hacker",
+                          member: "CincyAI"                        
                         },
-   currentlyLearning: "Flutter", "Mobile Development"
+   learning: "Flutter", "Mobile Development"
    availableForHire: true
   }
   
