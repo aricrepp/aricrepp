@@ -1,5 +1,5 @@
 
-<h2>Hi I'm Aric Repp <img src='https://media1.giphy.com/media/huyZxIJvtqVeRp7QcS/giphy.gif?cid=ecf05e47qblcz3ocds4axwtbipgq6digabjaiuq94l4c3ybi&rid=giphy.gif' width=50px/></h2>
+<h2>Hi I'm Aric Repp </h2>
 
 ### Here's a little bit about who I am as a developer:
 ```javascript
@@ -18,7 +18,7 @@ const Aric = () = {
                           member: "Indy Hacker",
                           member: "CincyAI"                        
                         },
-   learning: "Flutter", "Mobile Development"
+   learning: "Flutter", "Mobile Development",
    availableForHire: true
   }
   
